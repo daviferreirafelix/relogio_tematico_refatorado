@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="import" href="exercicio-relogio-tematico.js" />
+    <link rel="stylesheet" href="exercicio-relogio-tematico.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icones/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icones/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icones/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Relógio Dinâmico</title>
+  </head>
+  <body id="tema" onload="diaSemana(), tema()">
+    <header>
+      <h1 id="saudacao"></h1>
+    </header>
+    <section>
+      <div id="dia"></div>
+      <div id="relogio" onload="relogio()"></div>
+    </section>
+    <script src="exercicio-relogio-tematico.js"></script>
+  </body>
+</html>
